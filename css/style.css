@@ -998,3 +998,12 @@ footer {
 }
 
 
+
+/* Vector arrows keep their shape and color on iOS without emoji font substitution. */
+.arrow-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -.125em;
+  flex-shrink: 0;
+}
