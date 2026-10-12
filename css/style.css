@@ -1,4 +1,3 @@
-/* Fonts and theme */
 @font-face {
     font-family: Orbitron;
     src: url('../assets/fonts/Orbitron.ttf') format('truetype');
@@ -82,7 +81,6 @@ button:focus-visible {
     color: var(--muted);
 }
 
-/* Header and branding */
 .site-header {
     position: sticky;
     top: 0;
@@ -142,7 +140,6 @@ button:focus-visible {
     border: 1px solid #59595e;
 }
 
-/* Page sections and controls */
 .hero {
     overflow: hidden;
 }
@@ -885,7 +882,6 @@ footer {
     animation: car-rise 1.5s cubic-bezier(.25, .65, .5, 1) both;
 }
 
-/* Responsive layout */
 @media (min-width:992px) {
     .site-header .navbar-nav {
         align-items: center;
@@ -1100,7 +1096,6 @@ footer {
     }
 }
 
-/* Editorial race-day theme */
 :root {
     --red: #ef1b2d;
     --bg: #ffffff;
